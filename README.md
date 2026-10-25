@@ -185,7 +185,7 @@ The system therefore controls **what to do next** based on its current state.
 | Layer | Technology | Purpose |
 |---|---|---|
 | Agent workflow | LangGraph | Stateful routing and conditional decisions |
-| LLM | OpenAI (`gpt-4o-mini`) | Routing, grading, rewriting, answer generation |
+| LLM | Groq  | Routing, grading, rewriting, answer generation |
 | Embeddings | HuggingFace `all-MiniLM-L6-v2` | Local 384-dimensional embeddings |
 | Vector DB | Pinecone | Private enterprise knowledge base |
 | External search | Tavily | Fallback when company KB is insufficient |
