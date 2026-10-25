@@ -278,16 +278,16 @@ Copy `.env.example` to `.env` in the project root, then replace the placeholders
 
 ```env
 # OpenAI: chat + embeddings
-OPENAI_API_KEY=your_openai_api_key_here
-OPENAI_MODEL=gpt-4o-mini
-EMBEDDING_MODEL=text-embedding-3-small
+GROQ_API_KEY=your_openai_api_key_here
+GROQ_MODEL=openai/gpt-oss-20b
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 
 # External web fallback
 TAVILY_API_KEY=your_tavily_api_key_here
 
 # Vector database
 PINECONE_API_KEY=your_pinecone_api_key_here
-PINECONE_INDEX_NAME=fde-it-support-rag
+PINECONE_INDEX_NAME=enterprise-it-support-minilm
 PINECONE_NAMESPACE=company-it-kb
 
 # Security: use a long random value
